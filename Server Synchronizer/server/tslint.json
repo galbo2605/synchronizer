@@ -1,0 +1,74 @@
+{
+	"extends": [
+		"tslint:recommended"
+	],
+	"defaultSeverity": "error",
+	"jsRules": {},
+   "rulesDirectory": ["vrsource-tslint-rules/rules"],
+	"rules": {
+		"no-console": false,
+		"member-access": false,
+		"object-literal-sort-keys": false,
+		"comment-format": false,
+		"ordered-imports": false,
+		"interface-name": false,
+		"no-submodule-imports": false,
+		"class-name": true,
+		"arrow-return-shorthand": true,
+		"arrow-parens": false,
+		"prefer-const": true,
+		"no-angle-bracket-type-assertion": false,
+		"no-trailing-whitespace": false,
+		"trailing-comma": false,
+		"member-ordering": true,
+		"align": false,
+		"prefer-for-of": false,
+		"one-variable-per-declaration": false,
+		"whitespace": false,
+		"array-type": false,
+		"object-literal-key-quotes": false,
+		"no-string-literal": false,
+		"no-empty": false,
+		"ext-variable-name": [
+			true,
+			["class",                 "pascal"],
+			["interface",             "pascal", {"regex": "^I.*$"}],
+			["parameter",             "camel"],
+			["property", "static",    "camel"],
+			["property", "private",   "camel", "require-leading-underscore"],
+			["property", "protected", "camel", "require-leading-underscore"],
+			["variable", "local",     "camel"],
+			["variable", "const",     "camel"],
+			["variable",              "camel", {"regex": "^g.*$"}],
+			["method", "private",     "camel"],
+			["method", "protected",   "camel"],
+			["function",              "camel"],
+			["default",               "camel"]
+		],
+		"variable-name": [
+			true,
+			"ban-keywords",
+			"check-format"
+		 ],
+		"semicolon": [
+			true,
+			"always"
+		],
+		"indent": [
+			true,
+			"tabs"
+		],
+		"max-line-length": [
+			true,
+			140
+		],
+		"quotemark": [
+			true,
+			"single"
+		],
+		"triple-equals": [
+			true,
+			"allow-null-check"
+		]
+	}
+}

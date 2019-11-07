@@ -1,0 +1,1665 @@
+@font-face {
+	font-family: "icons8";
+	src: url("font/icons8.eot");
+	src: url("font/icons8.eot?#iefix") format("embedded-opentype"), url("font/icons8.woff2") format("woff2"), url("font/icons8.woff") format("woff"), url("font/icons8.ttf") format("truetype"), url("font/icons8.svg#font_icons8") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+	@font-face {
+		font-family: "icons8";
+		src: url("font/icons8.svg#font_icons8") format("svg");
+	}
+}
+
+[data-icons8]:before {
+	content: attr(data-icons8);
+}
+
+.icons8, [data-icons8]:before, .icons8-accounting:before, .icons8-accounting-filled:before, .icons8-action:before, .icons8-action-filled:before, .icons8-add-column:before, .icons8-add-link-filled:before, .icons8-add-property:before, .icons8-add-record:before, .icons8-add-rule:before, .icons8-add-user-male:before, .icons8-add-user-male-2:before, .icons8-add-user-male-3:before, .icons8-add-user-male-4:before, .icons8-airplane-take-off:before, .icons8-airplane-take-off-2:before, .icons8-airplane-take-off-3:before, .icons8-anchor-filled:before, .icons8-apple:before, .icons8-apple-filled:before, .icons8-appointment-reminders:before, .icons8-attach:before, .icons8-attach-2:before, .icons8-attach-3:before, .icons8-attach-filled:before, .icons8-available-updates-filled:before, .icons8-back:before, .icons8-back-2:before, .icons8-bank-card-back-side-filled:before, .icons8-bar-chart:before, .icons8-bar-chart-filled:before, .icons8-bill:before, .icons8-bill-2:before, .icons8-bill-3:before, .icons8-boarding-pass:before, .icons8-boarding-pass-2:before, .icons8-broken-link:before, .icons8-bulleted-list:before, .icons8-bulleted-list-filled:before, .icons8-bullish-filled:before, .icons8-calendar:before, .icons8-calendar-2:before, .icons8-camera:before, .icons8-cancel:before, .icons8-cancel-file:before, .icons8-cancel-filled:before, .icons8-cargo-ship-filled:before, .icons8-cash-in-hand-2:before, .icons8-cash-in-hand-3:before, .icons8-cash-in-hand-4:before, .icons8-cash-in-hand-5:before, .icons8-cheap:before, .icons8-check:before, .icons8-check-file:before, .icons8-check-file-2:before, .icons8-checked:before, .icons8-checked-checkbox:before, .icons8-checked-checkbox-2:before, .icons8-checked-checkbox-3:before, .icons8-checklist-filled:before, .icons8-checkmark:before, .icons8-chevron:before, .icons8-chevron-down-filled:before, .icons8-chevron-left:before, .icons8-chevron-left-filled:before, .icons8-chevron-right-filled:before, .icons8-chevron-up-filled:before, .icons8-christmas-star:before, .icons8-christmas-star-2:before, .icons8-circled-chevron-down-filled:before, .icons8-circled-chevron-left-filled:before, .icons8-circled-chevron-right-filled:before, .icons8-circled-chevron-up-filled:before, .icons8-circled-left-2-filled:before, .icons8-circled-pause:before, .icons8-circled-pause-filled:before, .icons8-circled-play:before, .icons8-circled-play-filled:before, .icons8-circled-up-2:before, .icons8-circled-user-female:before, .icons8-circled-user-female--filled:before, .icons8-circled-user-male-filled:before, .icons8-class:before, .icons8-clear-filters:before, .icons8-clear-filters-2:before, .icons8-clear-filters-3:before, .icons8-clear-filters-4:before, .icons8-clock:before, .icons8-clock-2:before, .icons8-close-window:before, .icons8-collapse-arrow:before, .icons8-collapse-arrow-2:before, .icons8-combo-chart:before, .icons8-combo-chart-2:before, .icons8-combo-chart-3:before, .icons8-combo-chart-4:before, .icons8-comments:before, .icons8-comments-2:before, .icons8-compact-camera:before, .icons8-compact-camera-2:before, .icons8-compare:before, .icons8-conference-call:before, .icons8-connection-status-off-filled:before, .icons8-contact-card:before, .icons8-contact-card-filled:before, .icons8-contacts:before, .icons8-contacts-2:before, .icons8-contract-job-filled:before, .icons8-copy:before, .icons8-crane:before, .icons8-dashboard-filled:before, .icons8-data-configuration-filled:before, .icons8-data-pending:before, .icons8-data-pending-2:before, .icons8-data-pending-filled:before, .icons8-data-recovery:before, .icons8-delete:before, .icons8-delete-database-filled:before, .icons8-delete-file:before, .icons8-delete-file-2:before, .icons8-delete-file-filled:before, .icons8-delete-filled:before, .icons8-delete-folder:before, .icons8-delete-folder-2:before, .icons8-delete-property:before, .icons8-delete-property-2:before, .icons8-delete-property-3:before, .icons8-delivery:before, .icons8-details-pane:before, .icons8-detective:before, .icons8-diff-files-filled:before, .icons8-diff-files-filled-2:before, .icons8-diploma-1:before, .icons8-doctors-bag:before, .icons8-document:before, .icons8-document-2:before, .icons8-document-with-a-check-mark:before, .icons8-documents-folder:before, .icons8-documents-folder-2:before, .icons8-double-down:before, .icons8-double-down-2:before, .icons8-double-down-filled:before, .icons8-double-left:before, .icons8-double-left-2:before, .icons8-double-right:before, .icons8-double-right-2:before, .icons8-double-up:before, .icons8-down:before, .icons8-down-squared-filled:before, .icons8-download:before, .icons8-download-2:before, .icons8-download-3:before, .icons8-downloading-updates:before, .icons8-downloading-updates-2:before, .icons8-edit:before, .icons8-edit-image:before, .icons8-empty-flag:before, .icons8-empty-flag-2:before, .icons8-empty-flag-3:before, .icons8-empty-hourglass-filled:before, .icons8-equal-sign:before, .icons8-error:before, .icons8-error-2:before, .icons8-error-3:before, .icons8-exclamation-mark:before, .icons8-expand:before, .icons8-expand-arrow:before, .icons8-expand-arrow-2:before, .icons8-export:before, .icons8-export-filled:before, .icons8-facebook-like:before, .icons8-fast-forward:before, .icons8-fast-forward-2:before, .icons8-file:before, .icons8-file-2:before, .icons8-filled-filter:before, .icons8-filter:before, .icons8-filter-2:before, .icons8-filter-3:before, .icons8-filter-4:before, .icons8-filter-filled:before, .icons8-fishing-boat:before, .icons8-flag-filled:before, .icons8-flag-filled-2:before, .icons8-flow-chart-filled:before, .icons8-form:before, .icons8-forward:before, .icons8-forward-2:before, .icons8-forward-filled:before, .icons8-forward-filled-2:before, .icons8-forward-message:before, .icons8-full-stop:before, .icons8-gender-neutral-user:before, .icons8-good-quality:before, .icons8-google-alerts:before, .icons8-graduation-cap:before, .icons8-group-leader:before, .icons8-guest-male:before, .icons8-hammer-filled:before, .icons8-hand:before, .icons8-hand-2:before, .icons8-handshake-filled:before, .icons8-help:before, .icons8-help-2:before, .icons8-help-3:before, .icons8-help-4:before, .icons8-help-5:before, .icons8-help-filled:before, .icons8-high-importance:before, .icons8-high-priority:before, .icons8-high-priority-2:before, .icons8-hourglass:before, .icons8-import:before, .icons8-import-filled:before, .icons8-info:before, .icons8-info-2:before, .icons8-info-filled:before, .icons8-inspection:before, .icons8-invoice:before, .icons8-invoice-2:before, .icons8-job:before, .icons8-joining-queue:before, .icons8-last-24-hours:before, .icons8-last-hour:before, .icons8-left:before, .icons8-lifebuoy:before, .icons8-link:before, .icons8-link-filled:before, .icons8-link-filled-2:before, .icons8-load:before, .icons8-logout-rounded-left-filled:before, .icons8-logout-rounded-up-filled:before, .icons8-maintenance:before, .icons8-maintenance-filled:before, .icons8-manager-filled:before, .icons8-marker:before, .icons8-marker-filled:before, .icons8-medal:before, .icons8-medium-priority:before, .icons8-menu:before, .icons8-menu-2-filled:before, .icons8-menu-filled:before, .icons8-merge-files-filled:before, .icons8-message:before, .icons8-message-2:before, .icons8-message-filled:before, .icons8-microphone:before, .icons8-microphone-filled:before, .icons8-microsoft-excel:before, .icons8-microsoft-excel-2:before, .icons8-money-bag:before, .icons8-money-bag-filled:before, .icons8-more-than:before, .icons8-negative-dynamic:before, .icons8-new-message:before, .icons8-new-moon:before, .icons8-next:before, .icons8-next-button:before, .icons8-next-button-2:before, .icons8-next-track-button:before, .icons8-ok:before, .icons8-online-support-filled:before, .icons8-open-folder:before, .icons8-open-folder-2:before, .icons8-order-history:before, .icons8-order-history-2:before, .icons8-order-history-filled:before, .icons8-overhead-crane:before, .icons8-page-overview:before, .icons8-paint-palette-filled:before, .icons8-parent-guardian:before, .icons8-pdf-filled:before, .icons8-pencil:before, .icons8-pirates-of-the-caribbean-filled:before, .icons8-planner:before, .icons8-play:before, .icons8-play-2:before, .icons8-play-3:before, .icons8-play-filled:before, .icons8-play-property:before, .icons8-plus:before, .icons8-plus-math:before, .icons8-plus-math-2:before, .icons8-positive-dynamic:before, .icons8-positive-dynamic-2:before, .icons8-positive-dynamic-3:before, .icons8-positive-dynamic-4:before, .icons8-positive-dynamic-5:before, .icons8-previous:before, .icons8-previous-track:before, .icons8-previous-track-2:before, .icons8-price-comparison:before, .icons8-print:before, .icons8-print-2:before, .icons8-private:before, .icons8-process:before, .icons8-property-time:before, .icons8-property-time-2:before, .icons8-purchase-order:before, .icons8-purchase-order-2:before, .icons8-purchase-order-3:before, .icons8-purchase-order-filled:before, .icons8-ratings-filled:before, .icons8-reading:before, .icons8-reading-confirmation:before, .icons8-reading-filled:before, .icons8-realtime-protection:before, .icons8-receive-cash-2:before, .icons8-receive-cash-filled:before, .icons8-record:before, .icons8-recurring-appointment-filled:before, .icons8-redo:before, .icons8-refresh:before, .icons8-refresh-2:before, .icons8-refresh-3:before, .icons8-refund-2:before, .icons8-refund-2-filled:before, .icons8-refund-filled:before, .icons8-renew:before, .icons8-report-card:before, .icons8-report-card-2:before, .icons8-report-card-3:before, .icons8-resume-button-filled:before, .icons8-rewind:before, .icons8-rewind-2:before, .icons8-sailing-ship-medium:before, .icons8-save:before, .icons8-save-2:before, .icons8-scales:before, .icons8-screenshot:before, .icons8-search:before, .icons8-search-2:before, .icons8-search-filled:before, .icons8-search-property:before, .icons8-search-property-filled:before, .icons8-select:before, .icons8-send-file:before, .icons8-settings:before, .icons8-settings-2:before, .icons8-settings-3:before, .icons8-shopping-cart:before, .icons8-shopping-cart-filled:before, .icons8-show-property:before, .icons8-skip-to-start-filled:before, .icons8-soccer-yellow-card-filled:before, .icons8-sort-by-follow-up-date:before, .icons8-sort-by-modified-date:before, .icons8-sort-down:before, .icons8-sort-down-filled:before, .icons8-sort-left:before, .icons8-sort-left-filled:before, .icons8-sort-right:before, .icons8-sort-right-filled:before, .icons8-sort-up:before, .icons8-sort-up-filled:before, .icons8-sorting-arrows-horizontal-filled:before, .icons8-sorting-options:before, .icons8-speedometer-filled:before, .icons8-star:before, .icons8-stethoscope-filled:before, .icons8-stop:before, .icons8-submit-progress-filled:before, .icons8-swipe-left:before, .icons8-template:before, .icons8-test-passed:before, .icons8-test-passed-filled:before, .icons8-thumb-up:before, .icons8-thumbs-down-filled:before, .icons8-ticket:before, .icons8-to-do-filled:before, .icons8-todo-list-filled:before, .icons8-training-filled:before, .icons8-transfer-between-users:before, .icons8-transfer-between-users-filled:before, .icons8-trash-can:before, .icons8-tree-structure:before, .icons8-tree-structure-2:before, .icons8-true-false:before, .icons8-umbrella:before, .icons8-unchecked-checkbox:before, .icons8-undo:before, .icons8-unlock:before, .icons8-up:before, .icons8-upgrade:before, .icons8-upgrade-2:before, .icons8-upload:before, .icons8-upload-link-document:before, .icons8-user:before, .icons8-user-female:before, .icons8-user-female-2:before, .icons8-user-filled:before, .icons8-user-group-man-man:before, .icons8-user-manual:before, .icons8-video:before, .icons8-visible:before, .icons8-visible-2:before, .icons8-voice-presentation:before, .icons8-watch:before, .icons8-water-transportation:before, .icons8-windows-xp:before, .icons8-windows-xp-2:before, .icons8-work:before, .icons8-work-2:before, .icons8-worker-male:before, .icons8-workstation:before, .icons8-wrench-filled:before, .icons8-zoom-in:before, .icons8-zoom-in-filled:before, .icons8-zoom-out-filled:before {
+	display: inline-block;
+	font-family: "icons8";
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	line-height: 1;
+	text-decoration: inherit;
+	text-rendering: optimizeLegibility;
+	text-transform: none;
+	-moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+}
+
+.icons8-accounting:before {
+	content: "\f197";
+}
+
+.icons8-accounting-filled:before {
+	content: "\f1fd";
+}
+
+.icons8-action:before {
+	content: "\f276";
+}
+
+.icons8-action-filled:before {
+	content: "\f277";
+}
+
+.icons8-add-column:before {
+	content: "\f23b";
+}
+
+.icons8-add-link-filled:before {
+	content: "\f1d0";
+}
+
+.icons8-add-property:before {
+	content: "\f1d6";
+}
+
+.icons8-add-record:before {
+	content: "\f1b2";
+}
+
+.icons8-add-rule:before {
+	content: "\f1ed";
+}
+
+.icons8-add-user-male:before {
+	content: "\f271";
+}
+
+.icons8-add-user-male-2:before {
+	content: "\f284";
+}
+
+.icons8-add-user-male-3:before {
+	content: "\f285";
+}
+
+.icons8-add-user-male-4:before {
+	content: "\f286";
+}
+
+.icons8-airplane-take-off:before {
+	content: "\f16e";
+}
+
+.icons8-airplane-take-off-2:before {
+	content: "\f207";
+}
+
+.icons8-airplane-take-off-3:before {
+	content: "\f20b";
+}
+
+.icons8-anchor-filled:before {
+	content: "\f29a";
+}
+
+.icons8-apple:before {
+	content: "\f150";
+}
+
+.icons8-apple-filled:before {
+	content: "\f14f";
+}
+
+.icons8-appointment-reminders:before {
+	content: "\f181";
+}
+
+.icons8-attach:before {
+	content: "\f11c";
+}
+
+.icons8-attach-2:before {
+	content: "\f1c8";
+}
+
+.icons8-attach-3:before {
+	content: "\f24a";
+}
+
+.icons8-attach-filled:before {
+	content: "\f120";
+}
+
+.icons8-available-updates-filled:before {
+	content: "\f14a";
+}
+
+.icons8-back:before {
+	content: "\f126";
+}
+
+.icons8-back-2:before {
+	content: "\f1b9";
+}
+
+.icons8-bank-card-back-side-filled:before {
+	content: "\f163";
+}
+
+.icons8-bar-chart:before {
+	content: "\f114";
+}
+
+.icons8-bar-chart-filled:before {
+	content: "\f1fc";
+}
+
+.icons8-bill:before {
+	content: "\f19d";
+}
+
+.icons8-bill-2:before {
+	content: "\f225";
+}
+
+.icons8-bill-3:before {
+	content: "\f27f";
+}
+
+.icons8-boarding-pass:before {
+	content: "\f257";
+}
+
+.icons8-boarding-pass-2:before {
+	content: "\f258";
+}
+
+.icons8-broken-link:before {
+	content: "\f1dd";
+}
+
+.icons8-bulleted-list:before {
+	content: "\f16a";
+}
+
+.icons8-bulleted-list-filled:before {
+	content: "\f16b";
+}
+
+.icons8-bullish-filled:before {
+	content: "\f1f5";
+}
+
+.icons8-calendar:before {
+	content: "\f105";
+}
+
+.icons8-calendar-2:before {
+	content: "\f1d7";
+}
+
+.icons8-camera:before {
+	content: "\f1bc";
+}
+
+.icons8-cancel:before {
+	content: "\f2a9";
+}
+
+.icons8-cancel-file:before {
+	content: "\f1af";
+}
+
+.icons8-cancel-filled:before {
+	content: "\f21d";
+}
+
+.icons8-cargo-ship-filled:before {
+	content: "\f1c0";
+}
+
+.icons8-cash-in-hand-2:before {
+	content: "\f25d";
+}
+
+.icons8-cash-in-hand-3:before {
+	content: "\f2bb";
+}
+
+.icons8-cash-in-hand-4:before {
+	content: "\f2bd";
+}
+
+.icons8-cash-in-hand-5:before {
+	content: "\f2be";
+}
+
+.icons8-cheap:before {
+	content: "\f1c2";
+}
+
+.icons8-check:before {
+	content: "\f227";
+}
+
+.icons8-check-file:before {
+	content: "\f21b";
+}
+
+.icons8-check-file-2:before {
+	content: "\f292";
+}
+
+.icons8-checked:before {
+	content: "\f298";
+}
+
+.icons8-checked-checkbox:before {
+	content: "\f1cc";
+}
+
+.icons8-checked-checkbox-2:before {
+	content: "\f1fe";
+}
+
+.icons8-checked-checkbox-3:before {
+	content: "\f23e";
+}
+
+.icons8-checklist-filled:before {
+	content: "\f14c";
+}
+
+.icons8-checkmark:before {
+	content: "\f193";
+}
+
+.icons8-chevron:before {
+	content: "\f132";
+}
+
+.icons8-chevron-down-filled:before {
+	content: "\f18e";
+}
+
+.icons8-chevron-left:before {
+	content: "\f175";
+}
+
+.icons8-chevron-left-filled:before {
+	content: "\f174";
+}
+
+.icons8-chevron-right-filled:before {
+	content: "\f18d";
+}
+
+.icons8-chevron-up-filled:before {
+	content: "\f18f";
+}
+
+.icons8-christmas-star:before {
+	content: "\f141";
+}
+
+.icons8-christmas-star-2:before {
+	content: "\f195";
+}
+
+.icons8-circled-chevron-down-filled:before {
+	content: "\f133";
+}
+
+.icons8-circled-chevron-left-filled:before {
+	content: "\f135";
+}
+
+.icons8-circled-chevron-right-filled:before {
+	content: "\f134";
+}
+
+.icons8-circled-chevron-up-filled:before {
+	content: "\f12e";
+}
+
+.icons8-circled-left-2-filled:before {
+	content: "\f1a8";
+}
+
+.icons8-circled-pause:before {
+	content: "\f148";
+}
+
+.icons8-circled-pause-filled:before {
+	content: "\f147";
+}
+
+.icons8-circled-play:before {
+	content: "\f146";
+}
+
+.icons8-circled-play-filled:before {
+	content: "\f145";
+}
+
+.icons8-circled-up-2:before {
+	content: "\f12f";
+}
+
+.icons8-circled-user-female:before {
+	content: "\f233";
+}
+
+.icons8-circled-user-female--filled:before {
+	content: "\f107";
+}
+
+.icons8-circled-user-male-filled:before {
+	content: "\f106";
+}
+
+.icons8-class:before {
+	content: "\f208";
+}
+
+.icons8-clear-filters:before {
+	content: "\f15d";
+}
+
+.icons8-clear-filters-2:before {
+	content: "\f1c4";
+}
+
+.icons8-clear-filters-3:before {
+	content: "\f261";
+}
+
+.icons8-clear-filters-4:before {
+	content: "\f2a2";
+}
+
+.icons8-clock:before {
+	content: "\f1ab";
+}
+
+.icons8-clock-2:before {
+	content: "\f244";
+}
+
+.icons8-close-window:before {
+	content: "\f228";
+}
+
+.icons8-collapse-arrow:before {
+	content: "\f24d";
+}
+
+.icons8-collapse-arrow-2:before {
+	content: "\f28a";
+}
+
+.icons8-combo-chart:before {
+	content: "\f1aa";
+}
+
+.icons8-combo-chart-2:before {
+	content: "\f201";
+}
+
+.icons8-combo-chart-3:before {
+	content: "\f20d";
+}
+
+.icons8-combo-chart-4:before {
+	content: "\f241";
+}
+
+.icons8-comments:before {
+	content: "\f108";
+}
+
+.icons8-comments-2:before {
+	content: "\f10b";
+}
+
+.icons8-compact-camera:before {
+	content: "\f14d";
+}
+
+.icons8-compact-camera-2:before {
+	content: "\f14e";
+}
+
+.icons8-compare:before {
+	content: "\f219";
+}
+
+.icons8-conference-call:before {
+	content: "\f13e";
+}
+
+.icons8-connection-status-off-filled:before {
+	content: "\f19f";
+}
+
+.icons8-contact-card:before {
+	content: "\f169";
+}
+
+.icons8-contact-card-filled:before {
+	content: "\f168";
+}
+
+.icons8-contacts:before {
+	content: "\f165";
+}
+
+.icons8-contacts-2:before {
+	content: "\f1ce";
+}
+
+.icons8-contract-job-filled:before {
+	content: "\f166";
+}
+
+.icons8-copy:before {
+	content: "\f1ee";
+}
+
+.icons8-crane:before {
+	content: "\f183";
+}
+
+.icons8-dashboard-filled:before {
+	content: "\f296";
+}
+
+.icons8-data-configuration-filled:before {
+	content: "\f191";
+}
+
+.icons8-data-pending:before {
+	content: "\f280";
+}
+
+.icons8-data-pending-2:before {
+	content: "\f281";
+}
+
+.icons8-data-pending-filled:before {
+	content: "\f275";
+}
+
+.icons8-data-recovery:before {
+	content: "\f198";
+}
+
+.icons8-delete:before {
+	content: "\f110";
+}
+
+.icons8-delete-database-filled:before {
+	content: "\f218";
+}
+
+.icons8-delete-file:before {
+	content: "\f1ae";
+}
+
+.icons8-delete-file-2:before {
+	content: "\f28b";
+}
+
+.icons8-delete-file-filled:before {
+	content: "\f18a";
+}
+
+.icons8-delete-filled:before {
+	content: "\f111";
+}
+
+.icons8-delete-folder:before {
+	content: "\f255";
+}
+
+.icons8-delete-folder-2:before {
+	content: "\f256";
+}
+
+.icons8-delete-property:before {
+	content: "\f1f1";
+}
+
+.icons8-delete-property-2:before {
+	content: "\f28f";
+}
+
+.icons8-delete-property-3:before {
+	content: "\f290";
+}
+
+.icons8-delivery:before {
+	content: "\f28e";
+}
+
+.icons8-details-pane:before {
+	content: "\f1e5";
+}
+
+.icons8-detective:before {
+	content: "\f206";
+}
+
+.icons8-diff-files-filled:before {
+	content: "\f222";
+}
+
+.icons8-diff-files-filled-2:before {
+	content: "\f223";
+}
+
+.icons8-diploma-1:before {
+	content: "\f20f";
+}
+
+.icons8-doctors-bag:before {
+	content: "\f1ff";
+}
+
+.icons8-document:before {
+	content: "\f199";
+}
+
+.icons8-document-2:before {
+	content: "\f2b6";
+}
+
+.icons8-document-with-a-check-mark:before {
+	content: "\f2ac";
+}
+
+.icons8-documents-folder:before {
+	content: "\f153";
+}
+
+.icons8-documents-folder-2:before {
+	content: "\f154";
+}
+
+.icons8-double-down:before {
+	content: "\f288";
+}
+
+.icons8-double-down-2:before {
+	content: "\f289";
+}
+
+.icons8-double-down-filled:before {
+	content: "\f287";
+}
+
+.icons8-double-left:before {
+	content: "\f137";
+}
+
+.icons8-double-left-2:before {
+	content: "\f1d2";
+}
+
+.icons8-double-right:before {
+	content: "\f136";
+}
+
+.icons8-double-right-2:before {
+	content: "\f237";
+}
+
+.icons8-double-up:before {
+	content: "\f139";
+}
+
+.icons8-down:before {
+	content: "\f27a";
+}
+
+.icons8-down-squared-filled:before {
+	content: "\f177";
+}
+
+.icons8-download:before {
+	content: "\f178";
+}
+
+.icons8-download-2:before {
+	content: "\f1b3";
+}
+
+.icons8-download-3:before {
+	content: "\f1cb";
+}
+
+.icons8-downloading-updates:before {
+	content: "\f112";
+}
+
+.icons8-downloading-updates-2:before {
+	content: "\f113";
+}
+
+.icons8-edit:before {
+	content: "\f2a8";
+}
+
+.icons8-edit-image:before {
+	content: "\f205";
+}
+
+.icons8-empty-flag:before {
+	content: "\f157";
+}
+
+.icons8-empty-flag-2:before {
+	content: "\f26c";
+}
+
+.icons8-empty-flag-3:before {
+	content: "\f26d";
+}
+
+.icons8-empty-hourglass-filled:before {
+	content: "\f22e";
+}
+
+.icons8-equal-sign:before {
+	content: "\f2b8";
+}
+
+.icons8-error:before {
+	content: "\f264";
+}
+
+.icons8-error-2:before {
+	content: "\f268";
+}
+
+.icons8-error-3:before {
+	content: "\f2aa";
+}
+
+.icons8-exclamation-mark:before {
+	content: "\f247";
+}
+
+.icons8-expand:before {
+	content: "\f295";
+}
+
+.icons8-expand-arrow:before {
+	content: "\f282";
+}
+
+.icons8-expand-arrow-2:before {
+	content: "\f283";
+}
+
+.icons8-export:before {
+	content: "\f159";
+}
+
+.icons8-export-filled:before {
+	content: "\f15a";
+}
+
+.icons8-facebook-like:before {
+	content: "\f248";
+}
+
+.icons8-fast-forward:before {
+	content: "\f124";
+}
+
+.icons8-fast-forward-2:before {
+	content: "\f125";
+}
+
+.icons8-file:before {
+	content: "\f11a";
+}
+
+.icons8-file-2:before {
+	content: "\f11b";
+}
+
+.icons8-filled-filter:before {
+	content: "\f262";
+}
+
+.icons8-filter:before {
+	content: "\f10d";
+}
+
+.icons8-filter-2:before {
+	content: "\f25f";
+}
+
+.icons8-filter-3:before {
+	content: "\f260";
+}
+
+.icons8-filter-4:before {
+	content: "\f270";
+}
+
+.icons8-filter-filled:before {
+	content: "\f161";
+}
+
+.icons8-fishing-boat:before {
+	content: "\f29e";
+}
+
+.icons8-flag-filled:before {
+	content: "\f26a";
+}
+
+.icons8-flag-filled-2:before {
+	content: "\f26b";
+}
+
+.icons8-flow-chart-filled:before {
+	content: "\f200";
+}
+
+.icons8-form:before {
+	content: "\f1f4";
+}
+
+.icons8-forward:before {
+	content: "\f131";
+}
+
+.icons8-forward-2:before {
+	content: "\f173";
+}
+
+.icons8-forward-filled:before {
+	content: "\f27c";
+}
+
+.icons8-forward-filled-2:before {
+	content: "\f27d";
+}
+
+.icons8-forward-message:before {
+	content: "\f17e";
+}
+
+.icons8-full-stop:before {
+	content: "\f2a6";
+}
+
+.icons8-gender-neutral-user:before {
+	content: "\f1c5";
+}
+
+.icons8-good-quality:before {
+	content: "\f20e";
+}
+
+.icons8-google-alerts:before {
+	content: "\f29d";
+}
+
+.icons8-graduation-cap:before {
+	content: "\f216";
+}
+
+.icons8-group-leader:before {
+	content: "\f2c7";
+}
+
+.icons8-guest-male:before {
+	content: "\f1cf";
+}
+
+.icons8-hammer-filled:before {
+	content: "\f1ea";
+}
+
+.icons8-hand:before {
+	content: "\f242";
+}
+
+.icons8-hand-2:before {
+	content: "\f243";
+}
+
+.icons8-handshake-filled:before {
+	content: "\f29b";
+}
+
+.icons8-help:before {
+	content: "\f10f";
+}
+
+.icons8-help-2:before {
+	content: "\f209";
+}
+
+.icons8-help-3:before {
+	content: "\f263";
+}
+
+.icons8-help-4:before {
+	content: "\f265";
+}
+
+.icons8-help-5:before {
+	content: "\f266";
+}
+
+.icons8-help-filled:before {
+	content: "\f10e";
+}
+
+.icons8-high-importance:before {
+	content: "\f2a0";
+}
+
+.icons8-high-priority:before {
+	content: "\f1ac";
+}
+
+.icons8-high-priority-2:before {
+	content: "\f249";
+}
+
+.icons8-hourglass:before {
+	content: "\f22d";
+}
+
+.icons8-import:before {
+	content: "\f17f";
+}
+
+.icons8-import-filled:before {
+	content: "\f180";
+}
+
+.icons8-info:before {
+	content: "\f1a9";
+}
+
+.icons8-info-2:before {
+	content: "\f293";
+}
+
+.icons8-info-filled:before {
+	content: "\f214";
+}
+
+.icons8-inspection:before {
+	content: "\f1b4";
+}
+
+.icons8-invoice:before {
+	content: "\f21e";
+}
+
+.icons8-invoice-2:before {
+	content: "\f21f";
+}
+
+.icons8-job:before {
+	content: "\f194";
+}
+
+.icons8-joining-queue:before {
+	content: "\f1e3";
+}
+
+.icons8-last-24-hours:before {
+	content: "\f235";
+}
+
+.icons8-last-hour:before {
+	content: "\f188";
+}
+
+.icons8-left:before {
+	content: "\f1d1";
+}
+
+.icons8-lifebuoy:before {
+	content: "\f239";
+}
+
+.icons8-link:before {
+	content: "\f1d9";
+}
+
+.icons8-link-filled:before {
+	content: "\f1d3";
+}
+
+.icons8-link-filled-2:before {
+	content: "\f1d4";
+}
+
+.icons8-load:before {
+	content: "\f2a7";
+}
+
+.icons8-logout-rounded-left-filled:before {
+	content: "\f1c1";
+}
+
+.icons8-logout-rounded-up-filled:before {
+	content: "\f149";
+}
+
+.icons8-maintenance:before {
+	content: "\f204";
+}
+
+.icons8-maintenance-filled:before {
+	content: "\f24b";
+}
+
+.icons8-manager-filled:before {
+	content: "\f1fa";
+}
+
+.icons8-marker:before {
+	content: "\f128";
+}
+
+.icons8-marker-filled:before {
+	content: "\f127";
+}
+
+.icons8-medal:before {
+	content: "\f184";
+}
+
+.icons8-medium-priority:before {
+	content: "\f230";
+}
+
+.icons8-menu:before {
+	content: "\f1b8";
+}
+
+.icons8-menu-2-filled:before {
+	content: "\f1c6";
+}
+
+.icons8-menu-filled:before {
+	content: "\f1b7";
+}
+
+.icons8-merge-files-filled:before {
+	content: "\f224";
+}
+
+.icons8-message:before {
+	content: "\f11f";
+}
+
+.icons8-message-2:before {
+	content: "\f28d";
+}
+
+.icons8-message-filled:before {
+	content: "\f11e";
+}
+
+.icons8-microphone:before {
+	content: "\f1bb";
+}
+
+.icons8-microphone-filled:before {
+	content: "\f1ba";
+}
+
+.icons8-microsoft-excel:before {
+	content: "\f15f";
+}
+
+.icons8-microsoft-excel-2:before {
+	content: "\f160";
+}
+
+.icons8-money-bag:before {
+	content: "\f2b7";
+}
+
+.icons8-money-bag-filled:before {
+	content: "\f297";
+}
+
+.icons8-more-than:before {
+	content: "\f1e6";
+}
+
+.icons8-negative-dynamic:before {
+	content: "\f1f0";
+}
+
+.icons8-new-message:before {
+	content: "\f253";
+}
+
+.icons8-new-moon:before {
+	content: "\f250";
+}
+
+.icons8-next:before {
+	content: "\f12c";
+}
+
+.icons8-next-button:before {
+	content: "\f2ae";
+}
+
+.icons8-next-button-2:before {
+	content: "\f2c3";
+}
+
+.icons8-next-track-button:before {
+	content: "\f2c2";
+}
+
+.icons8-ok:before {
+	content: "\f1f7";
+}
+
+.icons8-online-support-filled:before {
+	content: "\f13f";
+}
+
+.icons8-open-folder:before {
+	content: "\f229";
+}
+
+.icons8-open-folder-2:before {
+	content: "\f22a";
+}
+
+.icons8-order-history:before {
+	content: "\f272";
+}
+
+.icons8-order-history-2:before {
+	content: "\f273";
+}
+
+.icons8-order-history-filled:before {
+	content: "\f274";
+}
+
+.icons8-overhead-crane:before {
+	content: "\f182";
+}
+
+.icons8-page-overview:before {
+	content: "\f1b1";
+}
+
+.icons8-paint-palette-filled:before {
+	content: "\f217";
+}
+
+.icons8-parent-guardian:before {
+	content: "\f1b0";
+}
+
+.icons8-pdf-filled:before {
+	content: "\f18c";
+}
+
+.icons8-pencil:before {
+	content: "\f15e";
+}
+
+.icons8-pirates-of-the-caribbean-filled:before {
+	content: "\f1c9";
+}
+
+.icons8-planner:before {
+	content: "\f1da";
+}
+
+.icons8-play:before {
+	content: "\f123";
+}
+
+.icons8-play-2:before {
+	content: "\f17a";
+}
+
+.icons8-play-3:before {
+	content: "\f17b";
+}
+
+.icons8-play-filled:before {
+	content: "\f122";
+}
+
+.icons8-play-property:before {
+	content: "\f22f";
+}
+
+.icons8-plus:before {
+	content: "\f1de";
+}
+
+.icons8-plus-math:before {
+	content: "\f118";
+}
+
+.icons8-plus-math-2:before {
+	content: "\f119";
+}
+
+.icons8-positive-dynamic:before {
+	content: "\f115";
+}
+
+.icons8-positive-dynamic-2:before {
+	content: "\f2b1";
+}
+
+.icons8-positive-dynamic-3:before {
+	content: "\f2b2";
+}
+
+.icons8-positive-dynamic-4:before {
+	content: "\f2b3";
+}
+
+.icons8-positive-dynamic-5:before {
+	content: "\f2b4";
+}
+
+.icons8-previous:before {
+	content: "\f12b";
+}
+
+.icons8-previous-track:before {
+	content: "\f2c0";
+}
+
+.icons8-previous-track-2:before {
+	content: "\f2c1";
+}
+
+.icons8-price-comparison:before {
+	content: "\f221";
+}
+
+.icons8-print:before {
+	content: "\f10a";
+}
+
+.icons8-print-2:before {
+	content: "\f190";
+}
+
+.icons8-private:before {
+	content: "\f196";
+}
+
+.icons8-process:before {
+	content: "\f23c";
+}
+
+.icons8-property-time:before {
+	content: "\f232";
+}
+
+.icons8-property-time-2:before {
+	content: "\f291";
+}
+
+.icons8-purchase-order:before {
+	content: "\f19e";
+}
+
+.icons8-purchase-order-2:before {
+	content: "\f1e4";
+}
+
+.icons8-purchase-order-3:before {
+	content: "\f27e";
+}
+
+.icons8-purchase-order-filled:before {
+	content: "\f226";
+}
+
+.icons8-ratings-filled:before {
+	content: "\f1a1";
+}
+
+.icons8-reading:before {
+	content: "\f1eb";
+}
+
+.icons8-reading-confirmation:before {
+	content: "\f215";
+}
+
+.icons8-reading-filled:before {
+	content: "\f20c";
+}
+
+.icons8-realtime-protection:before {
+	content: "\f22c";
+}
+
+.icons8-receive-cash-2:before {
+	content: "\f252";
+}
+
+.icons8-receive-cash-filled:before {
+	content: "\f27b";
+}
+
+.icons8-record:before {
+	content: "\f16c";
+}
+
+.icons8-recurring-appointment-filled:before {
+	content: "\f140";
+}
+
+.icons8-redo:before {
+	content: "\f1e1";
+}
+
+.icons8-refresh:before {
+	content: "\f1f2";
+}
+
+.icons8-refresh-2:before {
+	content: "\f26e";
+}
+
+.icons8-refresh-3:before {
+	content: "\f26f";
+}
+
+.icons8-refund-2:before {
+	content: "\f25b";
+}
+
+.icons8-refund-2-filled:before {
+	content: "\f1a2";
+}
+
+.icons8-refund-filled:before {
+	content: "\f1e8";
+}
+
+.icons8-renew:before {
+	content: "\f2af";
+}
+
+.icons8-report-card:before {
+	content: "\f179";
+}
+
+.icons8-report-card-2:before {
+	content: "\f1ad";
+}
+
+.icons8-report-card-3:before {
+	content: "\f1d5";
+}
+
+.icons8-resume-button-filled:before {
+	content: "\f1a7";
+}
+
+.icons8-rewind:before {
+	content: "\f1a4";
+}
+
+.icons8-rewind-2:before {
+	content: "\f1a5";
+}
+
+.icons8-sailing-ship-medium:before {
+	content: "\f1dc";
+}
+
+.icons8-save:before {
+	content: "\f116";
+}
+
+.icons8-save-2:before {
+	content: "\f117";
+}
+
+.icons8-scales:before {
+	content: "\f23d";
+}
+
+.icons8-screenshot:before {
+	content: "\f144";
+}
+
+.icons8-search:before {
+	content: "\f143";
+}
+
+.icons8-search-2:before {
+	content: "\f278";
+}
+
+.icons8-search-filled:before {
+	content: "\f142";
+}
+
+.icons8-search-property:before {
+	content: "\f220";
+}
+
+.icons8-search-property-filled:before {
+	content: "\f11d";
+}
+
+.icons8-select:before {
+	content: "\f2ad";
+}
+
+.icons8-send-file:before {
+	content: "\f21a";
+}
+
+.icons8-settings:before {
+	content: "\f109";
+}
+
+.icons8-settings-2:before {
+	content: "\f170";
+}
+
+.icons8-settings-3:before {
+	content: "\f23f";
+}
+
+.icons8-shopping-cart:before {
+	content: "\f202";
+}
+
+.icons8-shopping-cart-filled:before {
+	content: "\f20a";
+}
+
+.icons8-show-property:before {
+	content: "\f1c7";
+}
+
+.icons8-skip-to-start-filled:before {
+	content: "\f1a6";
+}
+
+.icons8-soccer-yellow-card-filled:before {
+	content: "\f164";
+}
+
+.icons8-sort-by-follow-up-date:before {
+	content: "\f155";
+}
+
+.icons8-sort-by-modified-date:before {
+	content: "\f158";
+}
+
+.icons8-sort-down:before {
+	content: "\f13a";
+}
+
+.icons8-sort-down-filled:before {
+	content: "\f1bf";
+}
+
+.icons8-sort-left:before {
+	content: "\f13d";
+}
+
+.icons8-sort-left-filled:before {
+	content: "\f1df";
+}
+
+.icons8-sort-right:before {
+	content: "\f13c";
+}
+
+.icons8-sort-right-filled:before {
+	content: "\f1e2";
+}
+
+.icons8-sort-up:before {
+	content: "\f13b";
+}
+
+.icons8-sort-up-filled:before {
+	content: "\f176";
+}
+
+.icons8-sorting-arrows-horizontal-filled:before {
+	content: "\f19b";
+}
+
+.icons8-sorting-options:before {
+	content: "\f19c";
+}
+
+.icons8-speedometer-filled:before {
+	content: "\f203";
+}
+
+.icons8-star:before {
+	content: "\f2b0";
+}
+
+.icons8-stethoscope-filled:before {
+	content: "\f1f9";
+}
+
+.icons8-stop:before {
+	content: "\f2a5";
+}
+
+.icons8-submit-progress-filled:before {
+	content: "\f240";
+}
+
+.icons8-swipe-left:before {
+	content: "\f19a";
+}
+
+.icons8-template:before {
+	content: "\f1ef";
+}
+
+.icons8-test-passed:before {
+	content: "\f1db";
+}
+
+.icons8-test-passed-filled:before {
+	content: "\f1ec";
+}
+
+.icons8-thumb-up:before {
+	content: "\f12d";
+}
+
+.icons8-thumbs-down-filled:before {
+	content: "\f130";
+}
+
+.icons8-ticket:before {
+	content: "\f1e7";
+}
+
+.icons8-to-do-filled:before {
+	content: "\f14b";
+}
+
+.icons8-todo-list-filled:before {
+	content: "\f17d";
+}
+
+.icons8-training-filled:before {
+	content: "\f1f6";
+}
+
+.icons8-transfer-between-users:before {
+	content: "\f18b";
+}
+
+.icons8-transfer-between-users-filled:before {
+	content: "\f186";
+}
+
+.icons8-trash-can:before {
+	content: "\f2a4";
+}
+
+.icons8-tree-structure:before {
+	content: "\f22b";
+}
+
+.icons8-tree-structure-2:before {
+	content: "\f28c";
+}
+
+.icons8-true-false:before {
+	content: "\f192";
+}
+
+.icons8-umbrella:before {
+	content: "\f1f8";
+}
+
+.icons8-unchecked-checkbox:before {
+	content: "\f1e9";
+}
+
+.icons8-undo:before {
+	content: "\f1e0";
+}
+
+.icons8-unlock:before {
+	content: "\f162";
+}
+
+.icons8-up:before {
+	content: "\f279";
+}
+
+.icons8-upgrade:before {
+	content: "\f259";
+}
+
+.icons8-upgrade-2:before {
+	content: "\f25a";
+}
+
+.icons8-upload:before {
+	content: "\f121";
+}
+
+.icons8-upload-link-document:before {
+	content: "\f2b9";
+}
+
+.icons8-user:before {
+	content: "\f1cd";
+}
+
+.icons8-user-female:before {
+	content: "\f234";
+}
+
+.icons8-user-female-2:before {
+	content: "\f236";
+}
+
+.icons8-user-filled:before {
+	content: "\f102";
+}
+
+.icons8-user-group-man-man:before {
+	content: "\f1b6";
+}
+
+.icons8-user-manual:before {
+	content: "\f210";
+}
+
+.icons8-video:before {
+	content: "\f2c5";
+}
+
+.icons8-visible:before {
+	content: "\f15b";
+}
+
+.icons8-visible-2:before {
+	content: "\f15c";
+}
+
+.icons8-voice-presentation:before {
+	content: "\f1a0";
+}
+
+.icons8-watch:before {
+	content: "\f17c";
+}
+
+.icons8-water-transportation:before {
+	content: "\f1d8";
+}
+
+.icons8-windows-xp:before {
+	content: "\f151";
+}
+
+.icons8-windows-xp-2:before {
+	content: "\f152";
+}
+
+.icons8-work:before {
+	content: "\f254";
+}
+
+.icons8-work-2:before {
+	content: "\f246";
+}
+
+.icons8-worker-male:before {
+	content: "\f1fb";
+}
+
+.icons8-workstation:before {
+	content: "\f245";
+}
+
+.icons8-wrench-filled:before {
+	content: "\f299";
+}
+
+.icons8-zoom-in:before {
+	content: "\f172";
+}
+
+.icons8-zoom-in-filled:before {
+	content: "\f171";
+}
+
+.icons8-zoom-out-filled:before {
+	content: "\f24c";
+}
